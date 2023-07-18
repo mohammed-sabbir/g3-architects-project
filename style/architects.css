@@ -5,6 +5,9 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    max-width: 1920px;
+}
 .btn-primary{
     background-color: #ff900e;
     color:#FFF ;
@@ -77,4 +80,34 @@ nav li a{
     nav{
         flex-direction: column;
     }
+}
+/* main related style  */
+main{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+/* team related style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-image-contanier{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+.team-contend{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+.team-title{
+    font-size: 2.8rem;
+}
+.team-contend .quick{
+    color: #727272;
+    font-weight: 500;
+}
+.team-contend .Features{
+    color: #ff900e;
+    font-weight: 700;
 }
